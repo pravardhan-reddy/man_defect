@@ -3,9 +3,9 @@ const jwt = require('jsonwebtoken');
 const JWT_SECRET = 'defectiq-super-secret-key-2026';
 
 const users = [
-  { id: 'usr-1', email: 'engineer@factory.com', password: 'password123', name: 'Alex Johnson', role: 'Quality Engineer', department: 'Quality Assurance' },
-  { id: 'usr-2', email: 'manager@factory.com', password: 'password123', name: 'Sarah Miller', role: 'Production Manager', department: 'Operations' },
-  { id: 'usr-3', email: 'admin@factory.com', password: 'password123', name: 'David Vance', role: 'Plant Administrator', department: 'Executive Office' }
+  { id: 'usr-1', email: 'engineer@factory.com', password: 'password123', name: 'Sai pravardhan estati', role: 'Quality Engineer', department: 'Quality Assurance' },
+  { id: 'usr-2', email: 'manager@factory.com', password: 'password123', name: 'Priyatham bondu', role: 'Production Manager', department: 'Operations' },
+  { id: 'usr-3', email: 'admin@factory.com', password: 'password123', name: 'Naveed shaik', role: 'Plant Administrator', department: 'Executive Office' }
 ];
 
 exports.login = (req, res) => {

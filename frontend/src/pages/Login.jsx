@@ -28,7 +28,7 @@ export default function Login({ onLogin }) {
       // Demo fallback login
       onLogin({
         id: 'usr-1',
-        name: 'Alex Johnson',
+        name: 'Sai pravardhan estati',
         email: email,
         role: email.includes('manager') ? 'Production Manager' : 'Quality Engineer',
         department: 'Quality Assurance'
@@ -43,7 +43,7 @@ export default function Login({ onLogin }) {
     setPassword('password123');
     onLogin({
       id: 'usr-demo',
-      name: demoRole === 'Quality Engineer' ? 'Alex Johnson (Engineer)' : demoRole === 'Production Manager' ? 'Sarah Miller (Manager)' : 'David Vance (Admin)',
+      name: demoRole === 'Quality Engineer' ? 'Sai pravardhan estati (Engineer)' : demoRole === 'Production Manager' ? 'Priyatham bondu (Manager)' : 'Naveed shaik (Admin)',
       email: demoEmail,
       role: demoRole,
       department: demoRole === 'Production Manager' ? 'Operations' : 'Quality Control'
@@ -128,7 +128,7 @@ export default function Login({ onLogin }) {
           <div className="mt-8 pt-6 border-t border-slate-800">
             <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3 flex items-center space-x-1.5">
               <UserCheck className="w-3.5 h-3.5 text-cyan-400" />
-              <span>One-Click Hackathon Persona Login</span>
+              <span>One-Click Login</span>
             </p>
 
             <div className="grid grid-cols-3 gap-2">
@@ -138,7 +138,7 @@ export default function Login({ onLogin }) {
                 className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-cyan-500/40 text-left transition"
               >
                 <p className="text-[11px] font-bold text-cyan-400">Engineer</p>
-                <p className="text-[10px] text-slate-400 truncate">Alex J.</p>
+                <p className="text-[10px] text-slate-400 truncate">Sai pravardhan estati</p>
               </button>
 
               <button
@@ -147,7 +147,7 @@ export default function Login({ onLogin }) {
                 className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-cyan-500/40 text-left transition"
               >
                 <p className="text-[11px] font-bold text-amber-400">Manager</p>
-                <p className="text-[10px] text-slate-400 truncate">Sarah M.</p>
+                <p className="text-[10px] text-slate-400 truncate">Priyatham bondu</p>
               </button>
 
               <button
@@ -156,7 +156,7 @@ export default function Login({ onLogin }) {
                 className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-cyan-500/40 text-left transition"
               >
                 <p className="text-[11px] font-bold text-purple-400">Admin</p>
-                <p className="text-[10px] text-slate-400 truncate">David V.</p>
+                <p className="text-[10px] text-slate-400 truncate">Naveed shaik</p>
               </button>
             </div>
           </div>
